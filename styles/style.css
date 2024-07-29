@@ -11,7 +11,7 @@ body {
 
 .container {
     width: 90%;
-    margin: 5rem auto;
+    margin: 6.25rem auto;
     border-radius: 1rem;
 } 
 
@@ -85,7 +85,7 @@ p,li {
     color: white;
     font-size: 4rem;
     font-weight: 800;
-    
+    text-align: center;
 } 
 
 .explore-container p {
@@ -139,8 +139,15 @@ input, select, button {
 .popular-tours {
     display: flex;
     justify-content: space-between;
-    margin-top: 6.25rem;
-} 
+    width: 90%;
+}  
+
+.text-content h3 {
+    color: rgb(19, 19, 24);
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
 
 .text-content p,li,h3 {
     text-align: left;
@@ -154,12 +161,14 @@ input, select, button {
 } 
 
 .popular-section-img {
-    width: 50%;
+    width: 45%;
+    height: 600px;
 } 
 
 .popular-section-img img {
     width: 100%;
-    height: 65%;
+    height: 100%;
+    border-radius: 1rem;
 } 
 
 .text-content li {
@@ -167,7 +176,7 @@ input, select, button {
 } 
 
 .text-content button {
-    margin-top: 1.5rem;
+    margin-top: 3rem;
     color: rgb(255, 255, 255);
     font-family: Mulish;
     font-size: 20px;
@@ -184,4 +193,47 @@ input, select, button {
     font-size: 20px;
     font-weight: 400;
     line-height: 26px;
+} 
+
+/* .your-destination */
+
+.your-destination img{
+    width: 100%;
+    height: 400px;
+    filter: brightness(80%);
+}
+
+.your-destination h3,p {
+    text-align: center;
+} 
+
+.your-destination > p {
+    margin-top: 1.5rem;
+    color: rgba(19, 19, 24, 0.7);
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.row-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1.5rem 0;
+    gap: 2rem;
+    margin-top: 3rem;
+} 
+
+.country-card {
+    position: relative;
+} 
+
+.country {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    transform: translate(-50%, -50%);
 }
