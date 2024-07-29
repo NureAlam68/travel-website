@@ -251,5 +251,75 @@ input, select, button {
     grid-template-columns: 0.9fr 1.10fr;
     gap: 2rem;
     margin-top: 2rem;
+} 
+
+/* choose-container */
+
+.choose-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 2rem;
+} 
+
+.why-choose h3 {
+    color: rgb(19, 19, 24);
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+} 
+
+.why-choose p {
+    color: rgba(19, 19, 24, 0.7);
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 1.5rem;
 }
 
+.choose-card-one {
+    width: 650px;
+    height: 280px;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    border-radius: 16px;
+    background: rgba(251, 181, 99, 0.05);
+    padding: 1rem;
+}  
+
+.choose-container h4 {
+    color: rgb(19, 19, 24);
+    font-family: Mulish;
+    font-size: 26px;
+    font-weight: 800;
+    text-align: left;
+    margin-top: 2rem;
+} 
+
+.choose-container p {
+    color: rgb(90, 90, 93);
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.choose-card-two {
+    width: 650px;
+    height: 280px;
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    border-radius: 16px;
+    background: rgba(41, 206, 246, 0.05);
+    padding: 1rem;
+} 
+
+.fa-solid {
+    margin-top: 2.5rem;
+}
