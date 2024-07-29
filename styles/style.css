@@ -129,5 +129,59 @@ input, select, button {
 .btn-primary {
     background-color: rgb(255, 84, 0);
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}  
+
+/* popular-tours section */
+.popular-tours {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6.25rem;
 } 
 
+.text-content p,li,h3 {
+    text-align: left;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    width: 45%;
+} 
+
+.popular-section-img {
+    width: 50%;
+} 
+
+.popular-section-img img {
+    width: 100%;
+    height: 65%;
+} 
+
+.text-content li {
+    margin-bottom: 1rem;
+} 
+
+.text-content button {
+    margin-top: 1.5rem;
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-left: 0;
+} 
+
+.text-content p,li {
+    color: rgba(19, 19, 24, 0.7);
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+}
