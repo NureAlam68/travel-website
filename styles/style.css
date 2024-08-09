@@ -643,3 +643,286 @@ input, select, button {
 #copy-right {
     margin-top: 3rem;
 }
+
+.ham-burger {
+    display: none;
+}
+
+/* responsive design */
+
+@media screen and (max-width: 600px){
+    .nav-items {
+        display: none;
+    }
+
+    .ham-burger {
+        display: block;
+    }
+
+    h3 {
+        font-size: 28px;
+    } 
+
+    .ham-burger i {
+        font-size: 26px;
+    }
+
+    .container {
+        margin: 3rem auto;
+    } 
+
+    p {
+        font-size: 16px;
+    }
+    
+
+    .explore-container h3 {
+        font-size: 28px;
+        margin-top: 60px;
+    }
+
+    .explore-container p {
+        text-align: center;
+        line-break: 0;
+    }
+
+    .travel-inputs {
+        flex-direction: column;
+        width: 70%;
+        margin: auto;
+        height: 300px;
+        margin-top: 20px;
+    }
+
+    .travel-inputs input,
+    .travel-inputs select,
+    .travel-inputs button {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .popular-tours,
+    .choose-container,
+    .newsletter{
+        flex-direction: column;
+    }
+
+    .text-content {
+        row-gap: .7rem;
+        width: 90%;
+    } 
+
+    .text-content h3 {
+        font-size: 26px;
+    }
+
+    .text-content p, li {
+        font-size: 16px;
+    }
+
+    .popular-section-img {
+        width: 98%;
+        height: 300px;
+        margin-top: 1.5rem;
+    }  
+
+    .popular-section-img img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .text-content button  {
+        margin-top: 1rem;
+    }
+
+    .row-1, .row-2, .row-3 {
+        grid-template-columns: 1fr;
+    }
+
+    .your-destination img{
+        width: 98%;
+        height: 300px;
+        filter: brightness(80%);
+    }
+
+    .your-destination h3 {
+        font-size: 26px;
+    } 
+
+    .your-destination p {
+        font-size: 16px;
+    }
+
+    .country-card p {
+        font-size: 28px;
+    }
+
+    .why-choose h3 {
+        font-size: 26px;
+    }
+
+    .why-choose p {
+        font-size: 16px;
+        width: 335px;
+        margin: 0 auto;
+    } 
+
+    .choose-card-one {
+        width: 335px;
+        height: 289px;
+        border: 1px solid rgba(251, 181, 99, 0.2);
+        border-radius: 16px;
+        background: rgba(251, 181, 99, 0.05);
+        padding: 1rem;
+        margin: 0 auto;
+    }  
+    .choose-card-two {
+        width: 335px;
+        height: 289px;
+        border: 1px solid rgba(41, 206, 246, 0.2);
+        border-radius: 16px;
+        background: rgba(41, 206, 246, 0.05);
+        padding: 1rem;
+        margin: 0 auto;
+    } 
+
+    .choose-card-one p , .choose-card-two p {
+        margin-top: 16px;
+    }
+
+    .deals-discounts h3 {
+        font-size: 26px;
+    }
+
+    .deals-discounts p {
+        font-size: 16px;
+    }
+
+    .deals-one, .deals-two {
+        height: 500px;
+    }
+
+    .deals-card {
+        width: 280px;
+        height: 297px;
+        top: 150px;
+    }
+
+    .deals-card h4 {
+        font-size: 20px;
+        margin-top: 16px;
+    }
+
+    .deals-card p {
+        font-size: 16px;
+        margin-top: 14px;
+    }
+
+    .deals-card h5 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .deals-card button {
+        margin-top: 10px;
+    }
+
+    .deals-card {
+        width: 280px;
+        height: 297px;
+        left: 7px;
+        top: 150px;
+    }
+
+    .deals-second h4 {
+        font-size: 20px;
+        margin-top: 16px;
+    }
+
+    .deals-second p {
+        font-size: 16px;
+        margin-top: 14px;
+    }
+
+    .deals-second h5 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .deals-second button {
+        margin-top: 10px;
+    }
+
+    .deals-second {
+        width: 280px;
+        height: 297px;
+        left: 7px;
+        top: 150px;
+    }
+
+    .newsletter-form {
+        width: 83%;
+    }
+
+    .newsletter-form input{
+        width: 288px;
+        height: 60px;
+        margin: 0 auto;
+        padding: 0;
+        margin-top: 16px;
+    }
+
+    .newsletter-form button {
+        width: 290px;
+        height: 80px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    .newsletter-form hr {
+        width: 300px;
+    }
+
+    .newsletter-img {
+        width: 98%;
+        height: 350px;
+    }
+
+    .newsletter-img button {
+        width: 240px;
+    }
+
+    .newsletter-img button > h4{
+        font-size: 22px;
+    }
+
+    .newsletter-img button > p {
+        font-size: 20px;
+    }
+
+    .footer {
+        height: 330px;
+        margin-top: 50px;
+    }
+
+    .footer-logo {
+        padding-top: 20px;
+    }
+
+    .footer p {
+        font-size: 16px;
+    }
+
+    .footer-img {
+        margin-top: 20px;
+    } 
+
+    .footer hr {
+        margin-top: 20px;
+    }
+
+    #copy-right {
+        margin-top: 20px;
+    }
+
+}
